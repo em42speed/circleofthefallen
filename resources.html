@@ -25,9 +25,42 @@
                </div>
           </header>
           <h1 id="title">RESOURCES</h1>
-          <h2>Resource Type</h2>
-          <h3>Resource Subtype</h3>
-          <main class="article"></main>
+            <main>
+              <div class="tab">
+                <button class="tablinks" onclick="openTopic(event, 'Start Here')" id="defaultOpen">Start Here</button>
+                <button class="tablinks" onclick="openTopic(event, 'Philosophy & Academia')">Philosophy & Academia</button>
+                <button class="tablinks" onclick="openTopic(event, 'Prayer & Ritual')">Prayer & Ritual</button>  
+                <button class="tablinks" onclick="openTopic(event, 'Magic')">Magic</button>
+                <button class="tablinks" onclick="openTopic(event, 'Other')">Other</button>
+              </div>
+
+              <!-- Tab content -->
+              <div id="Start Here" class="tabcontent">
+                <h3>London</h3>
+                <p>London is the capital city of England.</p>
+              </div>
+
+              <div id="Philosophy & Academia" class="tabcontent">
+                <h3>Paris</h3>
+                <p>Paris is the capital of France.</p>
+              </div>
+
+              <div id="Prayer & Ritual" class="tabcontent">
+                <h3>Tokyo</h3>
+                <p>Tokyo is the capital of Japan.</p>
+              </div>
+
+              <div id="Magic" class="tabcontent">
+                <h3>Oslo</h3>
+                <p>Oslo is the capital of Norway.</p>
+              </div>
+
+              <div id="Other" class="tabcontent">
+                <h3>Viena</h3>
+                <p>Viena is the capital of Austria.</p>
+              </div>
+            </main>
+
      </body>
          <script>
       const toggleButton = document.getElementById("theme-toggle");
@@ -44,6 +77,30 @@
           toggleButton.textContent = "Dark";
         }
       });
+
+      function openTopic(evt, TopicName) {
+      // Declare all variables
+      var i, tabcontent, tablinks;
+
+      // Get all elements with class="tabcontent" and hide them
+      tabcontent = document.getElementsByClassName("tabcontent");
+      for (i = 0; i < tabcontent.length; i++) {
+      tabcontent[i].style.display = "none";
+      }
+
+      // Get all elements with class="tablinks" and remove the class "active"
+      tablinks = document.getElementsByClassName("tablinks");
+      for (i = 0; i < tablinks.length; i++) {
+      tablinks[i].className = tablinks[i].className.replace(" active", "");
+      }
+
+      // Show the current tab, and add an "active" class to the button that opened the tab
+      document.getElementById(TopicName).style.display = "block";
+      evt.currentTarget.className += " active";
+      };
+
+      // Get the element with id="defaultOpen" and click on it
+      document.getElementById("defaultOpen").click();
     </script>
   </body>
   <footer>

@@ -1,133 +1,133 @@
 h1,
 h2,
 h3 {
-  text-transform: uppercase;
-  font-family: rockwell;
+     text-transform: uppercase;
+     font-family: rockwell;
 }
 
 a {
-  color: black;
-  font-family: rockwell;
+     color: black;
+     font-family: rockwell;
 }
 
 body {
-  margin: 0 1rem;
+     margin: 0 1rem;
 }
 
 footer {
-  margin: 1rem;
+     margin: 1rem;
 }
 
 main p {
-  text-indent: 1rem;
+     text-indent: 1rem;
 }
 
 #title {
-  border: 5px solid darkred;
-  margin: auto;
-  margin-top: 1rem;
-  padding: 1rem;
-  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
-  font-size: 3rem;
-  letter-spacing: 1rem;
-  word-spacing: 1rem;
-  text-transform: uppercase;
-  text-align: center;
+     border: 5px solid darkred;
+     margin: auto;
+     margin-top: 1rem;
+     padding: 1rem;
+     font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+     font-size: 3rem;
+     letter-spacing: 1rem;
+     word-spacing: 1rem;
+     text-transform: uppercase;
+     text-align: center;
 }
 
 .index-container {
-  display: grid;
-  grid-template-columns: 1fr 4fr;
-  gap: 2rem;
-  min-height: 80vh;
-  margin-right: 2rem;
+     display: grid;
+     grid-template-columns: 1fr 4fr;
+     gap: 2rem;
+     min-height: 80vh;
+     margin-right: 2rem;
 }
 
 .main-content {
-  display: flex;
-  flex-direction: column;
-  gap: 2rem;
+     display: flex;
+     flex-direction: column;
+     gap: 2rem;
 }
 
 .subsections {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 1rem;
+     display: grid;
+     grid-template-columns: repeat(2, 1fr);
+     gap: 1rem;
 }
 
 .quote,
 #section1,
 #section2 {
-  outline: 2px dotted brown;
-  background: #fafafa;
+     outline: 2px dotted brown;
+     background: #fafafa;
 }
 
 .subsections h2 {
-  text-align: center;
+     text-align: center;
 }
 
 .subsections section {
-  padding: 1rem;
-  border-radius: 8px;
+     padding: 1rem;
+     border-radius: 8px;
 }
 .sidebar-section ul,
 .subsections ul {
-  margin-left: -40px;
+     margin-left: -40px;
 }
 
 .sidebar-section li,
 .subsections li {
-  list-style: none;
-  line-height: 200%;
-  text-align: center;
+     list-style: none;
+     line-height: 200%;
+     text-align: center;
 }
 
 .quote {
-  font-size: 120%;
-  font-family: rockwell;
-  text-align: center;
-  padding-left: 1rem;
-  padding-right: 1rem;
+     font-size: 120%;
+     font-family: rockwell;
+     text-align: center;
+     padding-left: 1rem;
+     padding-right: 1rem;
 }
 
 .article p,
 .subsections p {
-  text-indent: 1rem;
+     text-indent: 1rem;
 }
 
 .god-of p {
-  text-indent: 0px;
-  font-weight: bold;
-  font-size: 1.1rem;
-  line-height: 1.5rem;
-  text-align: center;
+     text-indent: 0px;
+     font-weight: bold;
+     font-size: 1.1rem;
+     line-height: 1.5rem;
+     text-align: center;
 }
 
 .god-of {
-  outline: 2px dotted brown;
-  background: #fafafa;
-  padding-left: 1rem;
-  padding-right: 1rem;
-  padding-top: 0.5rem;
-  padding-bottom: 1rem;
+     outline: 2px dotted brown;
+     background: #fafafa;
+     padding-left: 1rem;
+     padding-right: 1rem;
+     padding-top: 0.5rem;
+     padding-bottom: 1rem;
 }
 
 /*Left Sidebar*/
 
 .left-sidebar p {
-  text-indent: 0px !important;
+     text-indent: 0px !important;
 }
 .left-sidebar h2 {
-  text-align: center;
+     text-align: center;
 }
 .left-sidebar {
-  display: flex;
-  flex-direction: column;
-  gap: 2rem;
-  background: #f0f0f0;
-  padding: 1rem;
-  height: 100%;
-  font-size: 0.9rem;
+     display: flex;
+     flex-direction: column;
+     gap: 2rem;
+     background: #f0f0f0;
+     padding: 1rem;
+     height: 100%;
+     font-size: 0.9rem;
 }
 
 /*End Left Sidebar*/
@@ -135,97 +135,146 @@ main p {
 /*Navigation*/
 
 .top-bar {
-  display: flex;
-  align-items: center;
-  gap: 1rem;
-  padding: 0.5rem 1rem;
-  background: #f4f4f4;
-  width: 100%;
-  box-sizing: border-box;
+     display: flex;
+     align-items: center;
+     gap: 1rem;
+     padding: 0.5rem 1rem;
+     background: #f4f4f4;
+     width: 100%;
+     box-sizing: border-box;
 }
 .top-bar > * {
-  flex-shrink: 0;
+     flex-shrink: 0;
 }
 nav {
-  align-items: center;
-  font-weight: 100;
-  letter-spacing: 0.1rem;
-  z-index: 1;
-  font-size: 1rem;
-  background-color: #f4f4f4;
+     align-items: center;
+     font-weight: 100;
+     letter-spacing: 0.1rem;
+     z-index: 1;
+     font-size: 1rem;
+     background-color: #f4f4f4;
 }
 nav ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  display: flex;
-  gap: 0;
-  overflow: hidden;
+     list-style-type: none;
+     margin: 0;
+     padding: 0;
+     display: flex;
+     gap: 0;
+     overflow: hidden;
 }
 nav li a {
-  display: block;
-  text-align: center;
-  padding: 0.25rem 0.5rem;
-  text-decoration: underline;
-  border-left: 1px solid black;
+     display: block;
+     text-align: center;
+     padding: 0.25rem 0.5rem;
+     text-decoration: underline;
+     border-left: 1px solid black;
 }
 nav li:last-child {
-  border-right: 1px solid black;
+     border-right: 1px solid black;
 }
 /*End Navigation*/
 
 /*Buttons*/
 
 button {
-  padding: 10px 20px;
-  font-size: 16px;
-  border: none;
-  border-radius: 20px;
-  cursor: pointer;
-  background-color: darkred;
-  color: white;
-  transition: background-color 0.3s;
+     padding: 10px 20px;
+     font-size: 16px;
+     border: none;
+     border-radius: 20px;
+     cursor: pointer;
+     background-color: darkred;
+     color: white;
+     transition: background-color 0.3s;
 }
 button:hover {
-  background-color: grey;
+     background-color: grey;
 }
 
 .center-button button {
-  text-transform: uppercase;
-  letter-spacing: 3px;
-  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+     text-transform: uppercase;
+     letter-spacing: 3px;
+     font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
 }
 /*End Buttons*/
 
+/*Resource Tabs*/
+/* Style the tab */
+.tab {
+     overflow: hidden;
+     border: 1px solid #ccc;
+     background-color: #f1f1f1;
+}
+
+/* Style the buttons that are used to open the tab content */
+.tab button {
+     background-color: inherit;
+     float: left;
+     border: none;
+     outline: none;
+     cursor: pointer;
+     padding: 14px 16px;
+     transition: 0.3s;
+     color: darkred;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+     background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+     background-color: #ccc;
+}
+
+/* Style the tab content */
+.tabcontent {
+     display: none;
+     padding: 6px 12px;
+     border: 1px solid #ccc;
+     border-top: none;
+}
+
+/*End Resource Tabs*/
+
 /* Dark Mode*/
 body.light-mode {
-  background-color: #f4f4f4;
-  color: #333;
+     background-color: #f4f4f4;
+     color: #333;
 }
 body.dark-mode,
 .dark-mode nav,
 body.dark-mode .subsections section,
 body.dark-mode .top-bar {
-  background-color: #333;
-  color: #f4f4f4;
+     background-color: #333;
+     color: #f4f4f4;
 }
 .dark-mode .quote,
 .dark-mode #section1,
-.dark-mode #section2 {
-  outline: 2px dotted #fafafa;
-  background: dimgray;
+.dark-mode #section2,
+.dark-mode .tab {
+     outline: 2px dotted #fafafa;
+     background: dimgray;
 }
+.dark-mode .tab button {
+     color: #f4f4f4;
+}
+
+.dark-mode .tab button.active {
+     color: darkred;
+}
+
 .dark-mode .god-of,
 body.dark-mode .left-sidebar {
-  background: #222;
-  color: #f4f4f4;
+     background: #222;
+     color: #f4f4f4;
 }
 .dark-mode a,
 .dark-mode li a {
-  color: #f4f4f4;
+     color: #f4f4f4;
 }
 .dark-mode nav li a {
-  border-left: 1px solid #f4f4f4;
+     border-left: 1px solid #f4f4f4;
 }
 
 /*End Dark Mode*/
