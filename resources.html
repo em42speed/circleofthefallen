@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+
+<html>
+     <head>
+          <meta charset="UTF-8" />
+          <meta
+               name="viewport"
+               content="width=device-width, initial-scale=1.0" />
+          <title>Resources | CoF</title>
+          <link
+               href="/style.css"
+               rel="stylesheet"
+               type="text/css"
+               media="all" />
+     </head>
+     <body>
+          <header>
+               <div class="top-bar">
+                    <button id="theme-toggle">Dark</button>
+                    <nav>
+                         <ul>
+                              <li><a href="index.html">Home</a></li>
+                         </ul>
+                    </nav>
+               </div>
+          </header>
+          <h1 id="title">RESOURCES</h1>
+          <h2>Resource Type</h2>
+          <h3>Resource Subtype</h3>
+          <main class="article"></main>
+     </body>
+         <script>
+      const toggleButton = document.getElementById("theme-toggle");
+      const body = document.body;
+
+      body.classList.add("light-mode");
+
+      toggleButton.addEventListener("click", () => {
+        if (body.classList.contains("light-mode")) {
+          body.classList.replace("light-mode", "dark-mode");
+          toggleButton.textContent = "Light";
+        } else {
+          body.classList.replace("dark-mode", "light-mode");
+          toggleButton.textContent = "Dark";
+        }
+      });
+    </script>
+  </body>
+  <footer>
+    <a href="index.html">Home</a>
+  </footer>
+</html>

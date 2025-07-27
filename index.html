@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+
+<html>
+     <head>
+          <meta charset="UTF-8" />
+          <meta
+               name="viewport"
+               content="width=device-width, initial-scale=1.0" />
+          <title>R.A.D.</title>
+          <link
+               href="/style.css"
+               rel="stylesheet"
+               type="text/css"
+               media="all" />
+     </head>
+     <body>
+          <header>
+               <div class="top-bar">
+                    <button id="theme-toggle">Dark</button>
+                    <nav>
+                         <ul>
+                              <li><a href="resources.html">Resources</a></li>
+                         </ul>
+                    </nav>
+               </div>
+          </header>
+          <h1 id="title">Circle of the Fallen</h1>
+          <div class="index-container">
+               <section class="left-sidebar">
+                    <div class="sidebar-section">
+                         <h2>Circle of the Fallen</h2>
+                         <p>
+                              The Discord server
+                              <strong>"Circle of the Fallen"</strong> is a chill
+                              mid-sized community of theistic Satanists and
+                              anyone who falls under or near the theistic
+                              Satanist umbrella.
+                         </p>
+                         <p>
+                              If you've been curious enough to read through this
+                              site, you're invited.
+                         </p>
+                         <div class="center-button">
+                              <button
+                                   id="discord-link"
+                                   onclick="window.location.href='https://discord.gg/Be8Ax6r2';">
+                                   DISCORD
+                              </button>
+                         </div>
+                    </div>
+
+                    <div class="neo-buttons">
+                         <a
+                              href="https://idle-hands.neocities.org/"
+                              target="_blank"
+                              ><img
+                                   src="Buttons/Button_Idle_Hands.png"
+                                   alt="Idle-Hands"
+                         /></a>
+                    </div>
+               </section>
+               <div class="main-content">
+                    <main class="main-section">
+                         <h2>Welcome</h2>
+                         <p>
+                              Welcome to the website for the
+                              <strong>Circle of the Fallen</strong>, an online
+                              community for Theistic Satanists of all beliefs
+                              founded upon mutual respect instead of restrictive
+                              belief.
+                         </p>
+
+                         <p id="sic-dedo">
+                              COMMUNITY WITHOUT COMMAND, WISDOM WITHOUT DOGMA,
+                              GODS WITHOUT MASTERS
+                         </p>
+
+                         <p>Hail Satan and hail You!</p>
+                    </main>
+                    <div class="quote">
+                         <p>
+                              "Why did Satan cherish the spirit of opposition?
+                              From a persuasion that he was hardly and
+                              injuriously treated. He was not discouraged by the
+                              apparent inequality of the contest, because a
+                              sense of reason and justice was stronger in his
+                              mind than a sense of brute force. [...] He bore
+                              his torments with fortitude, because he disdained
+                              to be subdued by despotic power. He sought
+                              revenge, because he could not think with tameness
+                              of the unexpostulating authority that assumed to
+                              dispose of him. How beneficial and illustrious
+                              might the temper from which these qualities flowed
+                              have been found." - William Godwin
+                         </p>
+                    </div>
+                    <div class="subsections">
+                         <section id="section1">
+                              <h2>Section 1</h2>
+                              <p>
+                                   Pellentesque tincidunt ex sit amet vestibulum
+                                   tempor. Fusce venenatis convallis interdum.
+                                   Etiam nec risus tincidunt, lacinia libero ut,
+                                   mattis magna. Aliquam quis odio et massa
+                                   consectetur pulvinar. Etiam volutpat mattis
+                                   neque, id volutpat quam luctus eget. Nullam
+                                   lobortis arcu in libero ultrices convallis
+                                   vitae vel est. Donec id libero nec est
+                                   ultricies volutpat.
+                              </p>
+                              <p>
+                                   In purus lacus, rutrum sit amet ipsum id,
+                                   euismod sollicitudin orci. Fusce quis aliquet
+                                   ligula. Mauris porta pretium rhoncus. Proin
+                                   ipsum est, consectetur semper ex non,
+                                   interdum interdum sapien. Vivamus ultrices
+                                   ultricies lorem, a elementum lectus faucibus
+                                   ac. Integer posuere porttitor erat, et
+                                   ultricies nibh sodales vel. Pellentesque vel
+                                   nisl eget dui interdum dictum at et metus.
+                                   Pellentesque facilisis tempor congue. Aliquam
+                                   euismod dictum ex ac semper. Vivamus at dolor
+                                   suscipit, porttitor arcu vel, tincidunt
+                                   purus. Nunc dictum sodales tincidunt.
+                              </p>
+                         </section>
+                         <section id="section2">
+                              <h2>Section 2</h2>
+                              <p>
+                                   Nam elementum turpis at posuere tincidunt.
+                                   Mauris aliquet neque quis convallis finibus.
+                                   Nunc id laoreet enim. Aenean aliquet eget
+                                   odio sed feugiat. Donec lacinia elit sit amet
+                                   enim gravida, et maximus lorem fringilla.
+                                   Quisque sed leo eu massa vehicula viverra nec
+                                   sed eros. Nunc interdum nec libero at
+                                   aliquam. In egestas porta elit, in
+                                   scelerisque lectus rutrum et. Integer a purus
+                                   dolor.
+                              </p>
+                         </section>
+                    </div>
+               </div>
+          </div>
+
+          <!-- Begin Dark Mode Button -->
+          <script>
+               const toggleButton = document.getElementById("theme-toggle");
+               const body = document.body;
+
+               body.classList.add("light-mode");
+
+               toggleButton.addEventListener("click", () => {
+                    if (body.classList.contains("light-mode")) {
+                         body.classList.replace("light-mode", "dark-mode");
+                         toggleButton.textContent = "Light";
+                    } else {
+                         body.classList.replace("dark-mode", "light-mode");
+                         toggleButton.textContent = "Dark";
+                    }
+               });
+          </script>
+          <!-- End Dark Mode Button -->
+     </body>
+     <footer></footer>
+</html>
