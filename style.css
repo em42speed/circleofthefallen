@@ -86,8 +86,8 @@ main p {
      font-size: 120%;
      font-family: rockwell;
      text-align: center;
-     padding-left: 1rem;
-     padding-right: 1rem;
+     padding: 1rem;
+     margin: 2rem;
 }
 
 .article p,
