@@ -10,6 +10,10 @@ a {
      font-family: rockwell;
 }
 
+a:hover {
+     color: darkred;
+}
+
 body {
      margin: 0 1rem;
 }
@@ -56,6 +60,7 @@ main p {
 }
 
 .quote,
+.disclaimer,
 #section1,
 #section2 {
      outline: 2px dotted brown;
@@ -82,12 +87,21 @@ main p {
      text-align: center;
 }
 
-.quote {
-     font-size: 120%;
+.quote,
+.disclaimer {
      font-family: rockwell;
-     text-align: center;
      padding: 1rem;
      margin: 2rem;
+}
+
+.quote {
+     font-size: 100%;
+     text-align: center;
+}
+
+.disclaimer {
+     font-size: 75%;
+     text-align: left;
 }
 
 .article p,
