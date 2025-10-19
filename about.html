@@ -27,24 +27,7 @@
           </header>
             <h1 id="title">About The Circle</h1>
      </body>
-               <!-- Begin Dark Mode Button -->
-          <script>
-               const toggleButton = document.getElementById("theme-toggle");
-               const body = document.body;
-
-               body.classList.add("light-mode");
-
-               toggleButton.addEventListener("click", () => {
-                    if (body.classList.contains("light-mode")) {
-                         body.classList.replace("light-mode", "dark-mode");
-                         toggleButton.textContent = "Light";
-                    } else {
-                         body.classList.replace("dark-mode", "light-mode");
-                         toggleButton.textContent = "Dark";
-                    }
-               });
-          </script>
-          <!-- End Dark Mode Button -->
+          <script src="/scripts/theme.js"></script>
      </body>
      <footer></footer>
 </html>

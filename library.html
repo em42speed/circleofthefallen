@@ -318,22 +318,7 @@
                </div>
                <!-- Other topics moved to separate pages in /library/ -->
           </main>
-          <script>
-               const toggleButton = document.getElementById("theme-toggle");
-               const body = document.body;
-
-               body.classList.add("light-mode");
-
-               toggleButton.addEventListener("click", () => {
-                    if (body.classList.contains("light-mode")) {
-                         body.classList.replace("light-mode", "dark-mode");
-                         toggleButton.textContent = "Light";
-                    } else {
-                         body.classList.replace("dark-mode", "light-mode");
-                         toggleButton.textContent = "Dark";
-                    }
-               });
-          </script>
+          <script src="/scripts/theme.js"></script>
           <footer>
                <a href="index.html">Home</a>
           </footer>

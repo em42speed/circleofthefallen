@@ -109,23 +109,6 @@ main p {
      text-indent: 1rem;
 }
 
-.god-of p {
-     text-indent: 0px;
-     font-weight: bold;
-     font-size: 1.1rem;
-     line-height: 1.5rem;
-     text-align: center;
-}
-
-.god-of {
-     outline: 2px dotted brown;
-     background: #fafafa;
-     padding-left: 1rem;
-     padding-right: 1rem;
-     padding-top: 0.5rem;
-     padding-bottom: 1rem;
-}
-
 /*Left Sidebar*/
 
 .left-sidebar p {
