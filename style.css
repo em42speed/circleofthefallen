@@ -192,6 +192,12 @@ button:hover {
      letter-spacing: 3px;
      font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
 }
+/* Center the .center-button container contents horizontally and vertically */
+.center-button {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
 /*End Buttons*/
 
 /*Resource Tabs*/
