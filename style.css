@@ -220,7 +220,8 @@ button:hover {
 }
 
 /* Style the buttons that are used to open the tab content */
-.tab button {
+.tab button,
+.tab a.tablinks {
      background-color: inherit;
      float: left;
      border: none;
@@ -229,15 +230,18 @@ button:hover {
      padding: 14px 16px;
      transition: 0.3s;
      color: darkred;
+     text-decoration: none;
 }
 
 /* Change background color of buttons on hover */
-.tab button:hover {
+.tab button:hover,
+.tab a.tablinks:hover {
      background-color: #ddd;
 }
 
 /* Create an active/current tablink class */
-.tab button.active {
+.tab button.active,
+.tab a.tablinks.active {
      background-color: #ccc;
 }
 
@@ -271,11 +275,13 @@ body.dark-mode .top-bar {
      outline: 2px dotted #fafafa;
      background: dimgray;
 }
-.dark-mode .tab button {
+.dark-mode .tab button,
+.dark-mode .tab a.tablinks {
      color: #f4f4f4;
 }
 
-.dark-mode .tab button.active {
+.dark-mode .tab button.active,
+.dark-mode .tab a.tablinks.active {
      color: darkred;
 }
 

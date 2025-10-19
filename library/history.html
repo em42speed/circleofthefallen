@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+
+<html>
+     <head>
+          <meta charset="UTF-8" />
+          <meta
+               name="viewport"
+               content="width=device-width, initial-scale=1.0" />
+          <title>History and Philosophy | FALL</title>
+          <link
+               href="/style.css"
+               rel="stylesheet"
+               type="text/css"
+               media="all" />
+     </head>
+     <body>
+          <header>
+               <div class="top-bar">
+                    <button id="theme-toggle">Dark</button>
+                    <nav>
+                         <ul>
+                              <li><a href="index.html">Home</a></li>
+                              <li><a href="about.html">About</a></li>
+                         </ul>
+                    </nav>
+               </div>
+          </header>
+          <h1 id="title">LIBRARY OF THE FALLEN</h1>
+            <main>
+              <div class="disclaimer">
+                <p>DISCLAIMER:</p> 
+                <p>Welcome, one and all, to the Library of the Fallen. Here you will find a wealth of books and other resources on Satanism, the occult, and other such related subjects. This library is cultivated with the intent of all sources being free and easily accessible to the reader. All too often, knowledge of magic and mysticism is locked behind paywalls, but here at the Circle, we believe in sharing the fruit of knowledge as widely as we possibly can.</p>
+                <p>Please note that the books and sources shared here do not necessarily reflect the beliefs, practices, or politics of any individual member of the Circle of the Fallen, including the founders and staff. Satanism is a religion with no dogma, and this is a library, not a required reading list. You do not have to read any particular book to be a Satanist, nor will we ever discourage anyone from reading any book. We are are anti-censorship and pro-critical thinking.</p>
+                <p>To the best of our knowledge, all books shared on this site are legal to share for free. If you are a copyright holder of one of these books and wish for us to remove it, please email us at [email] and we will handle it as soon as possible.</p> 
+                <p>Please enjoy.</p>
+              </div>
+              <div class="tab">
+                <a class="tablinks" href="../library.html">Start Here</a>
+                <a class="tablinks active" href="history.html">History and Philosophy</a>
+                <a class="tablinks" href="prayer.html">Prayer and Practice</a>
+                <a class="tablinks" href="magic.html">Magic</a>
+                <a class="tablinks" href="music.html">Music</a>
+                <a class="tablinks" href="related.html">Satanism and Related Faiths</a>
+                <a class="tablinks" href="other.html">Other</a>
+              </div>
+
+              <!-- Tab content -->
+              <div id="History and Philosophy" class="tabcontent">
+                <p></p>
+              
+              </div>
+            </main>
+
+     </body>
+         <script>
+      const toggleButton = document.getElementById("theme-toggle");
+      const body = document.body;
+
+      body.classList.add("light-mode");
+
+      toggleButton.addEventListener("click", () => {
+        if (body.classList.contains("light-mode")) {
+          body.classList.replace("light-mode", "dark-mode");
+          toggleButton.textContent = "Light";
+        } else {
+          body.classList.replace("dark-mode", "light-mode");
+          toggleButton.textContent = "Dark";
+        }
+      });
+
+    </script>
+  </body>
+  <footer>
+    <a href="../index.html">Home</a>
+  </footer>
+</html>
