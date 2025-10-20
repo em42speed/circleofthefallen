@@ -10,10 +10,14 @@
                body.classList.add("dark-mode");
                body.classList.remove("light-mode");
                toggleButton.textContent = "Light";
+                   toggleButton.setAttribute('aria-checked', 'true');
+                   toggleButton.setAttribute('aria-label', 'Disable dark mode');
           } else {
                body.classList.add("light-mode");
                body.classList.remove("dark-mode");
                toggleButton.textContent = "Dark";
+                   toggleButton.setAttribute('aria-checked', 'false');
+                   toggleButton.setAttribute('aria-label', 'Enable dark mode');
           }
      }
 
@@ -32,6 +36,9 @@
                     : "light";
                applyTheme(now);
                localStorage.setItem(THEME_KEY, now);
+               // keep aria-checked in sync (redundant with applyTheme but explicit)
+               toggleButton.setAttribute('aria-checked', now === 'dark' ? 'true' : 'false');
+               toggleButton.setAttribute('aria-label', now === 'dark' ? 'Disable dark mode' : 'Enable dark mode');
           });
      }
 

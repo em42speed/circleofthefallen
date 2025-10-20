@@ -246,14 +246,18 @@ button:hover {
 /*End Resource Tabs*/
 
 /* Dark Mode*/
-body.light-mode {
+body.light-mode,
+html.light-mode {
      background-color: #f4f4f4;
      color: #333;
 }
 body.dark-mode,
+html.dark-mode,
 .dark-mode nav,
 body.dark-mode .subsections section,
-body.dark-mode .top-bar {
+html.dark-mode .subsections section,
+body.dark-mode .top-bar,
+html.dark-mode .top-bar {
      background-color: #333;
      color: #f4f4f4;
 }
@@ -276,7 +280,8 @@ body.dark-mode .top-bar {
 }
 
 .dark-mode .god-of,
-body.dark-mode .left-sidebar {
+body.dark-mode .left-sidebar,
+html.dark-mode .left-sidebar {
      background: #222;
      color: #f4f4f4;
 }
