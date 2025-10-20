@@ -336,7 +336,7 @@ body.dark-mode .left-sidebar {
           display: flex;
           flex-wrap: wrap;
           gap: 6px;
-          margin-top: 1rem;
+          margin-top: 16px;
      }
 
      .tab button,
