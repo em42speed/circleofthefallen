@@ -329,18 +329,23 @@ body.dark-mode .left-sidebar {
           padding: 0.75rem;
      }
 
-     /* Tabs: allow horizontal scroll and remove float on small screens */
+     /* Tabs: allow wrapping into multiple rows on small screens */
      .tab {
-          overflow-x: auto;
-          white-space: nowrap;
+          overflow-x: visible;
+          white-space: normal;
+          display: flex;
+          flex-wrap: wrap;
+          gap: 6px;
+          margin: 1rem;
      }
 
      .tab button,
      .tab a.tablinks {
           float: none;
-          display: inline-block;
+          display: inline-flex;
+          align-items: center;
+          justify-content: center;
           padding: 10px 12px;
-          margin-right: 6px;
           border-radius: 8px;
      }
 
