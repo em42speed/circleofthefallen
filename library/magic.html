@@ -1,525 +1,403 @@
 <!DOCTYPE html>
 
 <html>
-     <head>
-          <!-- Google tag (gtag.js) -->
-          <script
-               async
-               src="https://www.googletagmanager.com/gtag/js?id=G-LGX15XZ5ZY"></script>
-          <script>
-               window.dataLayer = window.dataLayer || [];
-               function gtag() {
-                    dataLayer.push(arguments);
-               }
-               gtag("js", new Date());
 
-               gtag("config", "G-LGX15XZ5ZY");
-          </script>
-          <meta charset="UTF-8" />
-          <meta
-               name="viewport"
-               content="width=device-width, initial-scale=1.0" />
-          <title>Magic | FALL</title>
-          <link
-               rel="icon"
-               type="image/x-icon"
-               href="/images/evil_smile.png" />
-          <script>
+<head>
+     <!-- Google tag (gtag.js) -->
+     <script async src="https://www.googletagmanager.com/gtag/js?id=G-LGX15XZ5ZY"></script>
+     <script>
+          window.dataLayer = window.dataLayer || [];
+          function gtag() {
+               dataLayer.push(arguments);
+          }
+          gtag("js", new Date());
+
+          gtag("config", "G-LGX15XZ5ZY");
+     </script>
+     <meta charset="UTF-8" />
+     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+     <title>Magic | FALL</title>
+     <link rel="icon" type="image/x-icon" href="/images/evil_smile.png" />
+     <script>
                /* Apply saved theme early to avoid FOUC */ (function () {
-                    try {
-                         var t = localStorage.getItem("fall-theme");
-                         if (t === "dark") {
-                              document.documentElement.classList.add(
-                                   "dark-mode"
-                              );
-                         } else {
-                              document.documentElement.classList.add(
-                                   "light-mode"
-                              );
-                         }
-                    } catch (e) {}
-               })();
-          </script>
-          <link
-               href="/style.css"
-               rel="stylesheet"
-               type="text/css"
-               media="all" />
-     </head>
-     <body>
-          <header>
-               <div class="top-bar">
-                    <button
-                         id="theme-toggle"
-                         role="switch"
-                         aria-checked="false"
-                         aria-label="Toggle dark mode">
-                         Dark
-                    </button>
-                    <nav>
+               try {
+                    var t = localStorage.getItem("fall-theme");
+                    if (t === "dark") {
+                         document.documentElement.classList.add(
+                              "dark-mode"
+                         );
+                    } else {
+                         document.documentElement.classList.add(
+                              "light-mode"
+                         );
+                    }
+               } catch (e) { }
+          })();
+     </script>
+     <link href="/style.css" rel="stylesheet" type="text/css" media="all" />
+</head>
+
+<body>
+     <header>
+          <div class="top-bar">
+               <button id="theme-toggle" role="switch" aria-checked="false" aria-label="Toggle dark mode">
+                    Dark
+               </button>
+               <nav>
+                    <ul>
+                         <li><a href="../index.html">Home</a></li>
+                         <li><a href="../about.html">About</a></li>
+                    </ul>
+               </nav>
+          </div>
+     </header>
+     <h1 id="title">LIBRARY OF THE FALLEN</h1>
+     <main>
+          <div class="tab">
+               <a class="tablinks" href="../library.html">Start Here</a>
+               <a class="tablinks" href="history.html">History and Philosophy</a>
+               <a class="tablinks" href="prayer.html">Prayer and Practice</a>
+               <a class="tablinks active" href="magic.html">Magic</a>
+               <a class="tablinks" href="music.html">Music</a>
+               <a class="tablinks" href="related.html">Satanism and Related Faiths</a>
+               <a class="tablinks" href="other.html">Other</a>
+          </div>
+
+          <!-- Tab content -->
+          <div id="Magic">
+               <h2>Magic</h2>
+               <p>
+                    Magic (or “magick” if you’re feeling fancy) is the
+                    fascination of many a Satanist. However, unlike some
+                    religions, there is no set tradition of Satanic magic
+                    one can trace back in time. Instead, we take parts of
+                    whatever suits our practice, and twist it to fit our
+                    morals and methods. While we cannot provide a simple
+                    set of directions on how to become an adept Satanic
+                    mage, we can offer a spread of different paths for you
+                    to explore.
+               </p>
+               <p>Enjoy.</p>
+               <h2>Basics</h2>
+               <p>
+                    We would advise the curious future magician to at least
+                    look over these resources, even if you don’t commit to
+                    studying them in depth. Not all of them are Satanic in
+                    nature, but they all have their uses.
+               </p>
+               <ul>
+                    <li>
+                         <a href="https://archive.org/details/TheSecretTeachingsOfAllAgesManlyHall/mode/2up"
+                              target="_blank">The Secret Teachings of All Ages</a>
+                         by Manly P. Hall
                          <ul>
-                              <li><a href="../index.html">Home</a></li>
-                              <li><a href="../about.html">About</a></li>
+                              <li>
+                                   This history book gives the reader an
+                                   excellent look into the history of magic
+                                   in the Western world.
+                              </li>
                          </ul>
-                    </nav>
-               </div>
-          </header>
-          <h1 id="title">LIBRARY OF THE FALLEN</h1>
-          <main>
-               <div class="tab">
-                    <a
-                         class="tablinks"
-                         href="../library.html"
-                         >Start Here</a
-                    >
-                    <a
-                         class="tablinks"
-                         href="history.html"
-                         >History and Philosophy</a
-                    >
-                    <a
-                         class="tablinks"
-                         href="prayer.html"
-                         >Prayer and Practice</a
-                    >
-                    <a
-                         class="tablinks active"
-                         href="magic.html"
-                         >Magic</a
-                    >
-                    <a
-                         class="tablinks"
-                         href="music.html"
-                         >Music</a
-                    >
-                    <a
-                         class="tablinks"
-                         href="related.html"
-                         >Satanism and Related Faiths</a
-                    >
-                    <a
-                         class="tablinks"
-                         href="other.html"
-                         >Other</a
-                    >
-               </div>
+                    </li>
+                    <li>
+                         <a href="resources\Vox’s Satanic Banishing Ritual & Associated Notes.pdf" target="_blank">
+                              Vox’s Satanic Banishing Ritual</a>
+                         by Vox Serpentis
+                         <ul>
+                              <li>
+                                   While the Satanist is hardly bound to
+                                   only dabble in Western magical methods,
+                                   The Lesser Banishing Ritual of the
+                                   Pentagram is a basic ritual that almost
+                                   any practitioner can get use out of, but
+                                   the original version’s requirements of
+                                   calling on the names of God and various
+                                   angels often makes the more demonically
+                                   inclined practitioners of the world
+                                   uncomfortable. To remedy this issue, Vox
+                                   Serpentis, one of the three founders of
+                                   the Circle of the Fallen, has designed a
+                                   Satanic version of the banishing ritual.
+                                   Use before any ritual, or on its own to
+                                   clear your space and mind from unwanted
+                                   energies, thoughts, and spirits.
+                              </li>
+                         </ul>
+                    </li>
+                    <li>
+                         <a href="resources\Devil's_Sabbath.pdf" target="_blank">
+                              Devil’s Sabbath</a>
+                         by Lion
+                         <ul>
+                              <li>
+                                   The Circle of the Fallen has no
+                                   formalized practices or required ritual
+                                   structure for our members to follow.
+                                   However, we do encourage all community
+                                   members to design their own practices,
+                                   including group practices. If you’re
+                                   looking for an enjoyable, easy group
+                                   ritual that can be done online or in
+                                   person, consider Lion’s very popular
+                                   Devil’s Sabbath ritual.
+                              </li>
+                         </ul>
+                    </li>
+                    <li>
+                         <a href="https://www.quareia.com/" target="_blank">Quareia</a>
+                         <ul>
+                              <li>
+                                   Now this one’s a bit of a committment,
+                                   and we don’t expect most people to go
+                                   through it all. But if you’re the type
+                                   who loves to learn in a lesson format,
+                                   Quareia is for you. It’s a completely
+                                   free, multi-year, self-paced course in
+                                   Western magic, without any particular
+                                   religion being emphasized. Study this
+                                   alongside some Satanic literature and
+                                   you’ll be well on your way.
+                              </li>
+                         </ul>
+                    </li>
+               </ul>
+               <h3>Left Hand Path</h3>
+               <p>
+                    Left Hand Path (LHP) is a rather squirrely term that is
+                    defined differently by different people; for our
+                    purposes, it means magical practices from the broad
+                    Western tradition that dabble in demonic and culturally
+                    tabboo practices. This, generally speaking, is the
+                    broader catagory that Satanic magic tends to fall into.
+                    However, as previously mentioned, this LHP catagory
+                    pulls from many other traditions, and so we have
+                    included several other catagories of magic that are
+                    worth being passingly familiar with, so that the
+                    well-rounded Satanic mage may recognize cross-tradition
+                    references when they come up, and mix and match
+                    different methods effectively.
+               </p>
+               <ul>
+                    <li>
+                         <a href="https://archive.org/details/kupdf.com_daemonic-magick/mode/2up" target="_blank">
+                              Daemonic Magick</a>
+                         by Seleneiethon
+                    </li>
+                    <li>
+                         <a href="https://kovinia.itch.io/the-little-daemon-booklet" target="_blank">
+                              The Little Daemon Booklet</a>
+                         by Anne O’Donoghue
+                    </li>
+                    <li>
+                         <a href="https://kovinia.itch.io/72-goetic-demon-cheat-sheet" target="_blank">
+                              72 Goetic Demon Cheat Sheet</a>
+                         by Anne O’Donoghue
+                    </li>
+                    <li>
+                         <a href="https://kovinia.itch.io/demons-summoning-for-the-solitary-practitioner"
+                              target="_blank">
+                              Demons and Daemons: Summoning for the
+                              Solitary Practitioner</a>
+                         by Anne O’Donoghue
+                    </li>
+                    <li>
+                         <a href="https://archive.org/details/stellas-daemonum/mode/2up" target="_blank">
+                              Stellas Daemonum: The Orders of the Demons</a>
+                         by David Crowhurst
+                    </li>
+                    <li>
+                         <a href="https://archive.org/details/the-book-of-smokeless-fire/mode/2up" target="_blank">
+                              The Book of Smokeless Fire</a>
+                         by S. Ben Qayin
+                    </li>
+                    <li>
+                         <a href="https://archive.org/details/kenneth-grant-nightside-of-eden_202408" target="_blank">
+                              Nightshade of Eden</a>
+                         by Kenneth Grant
+                    </li>
+                    <li>
+                         <a href="https://archive.org/details/black-magic-evocation-of-the-shem-ha-mephorash_202212"
+                              target="_blank">
+                              Black Magic Evocation of the Shem Ha
+                              Mephorash</a>
+                         by Gilles De Laval
+                    </li>
+                    <li>
+                         <a href="https://archive.org/details/the-explicit-name-of-lucifer-full/page/n5/mode/2up"
+                              target="_blank">
+                              The Explicit Name Of Lucifer</a>
+                         by Gilles De Laval
+                    </li>
+               </ul>
 
-               <!-- Tab content -->
-               <div id="Magic">
-                    <h2>Magic</h2>
-                    <p>
-                         Magic (or “magick” if you’re feeling fancy) is the
-                         fascination of many a Satanist. However, unlike some
-                         religions, there is no set tradition of Satanic magic
-                         one can trace back in time. Instead, we take parts of
-                         whatever suits our practice, and twist it to fit our
-                         morals and methods. While we cannot provide a simple
-                         set of directions on how to become an adept Satanic
-                         mage, we can offer a spread of different paths for you
-                         to explore.
-                    </p>
-                    <p>Enjoy.</p>
-                    <h2>Basics</h2>
-                    <p>
-                         We would advise the curious future magician to at least
-                         look over these resources, even if you don’t commit to
-                         studying them in depth. Not all of them are Satanic in
-                         nature, but they all have their uses.
-                    </p>
-                    <ul>
-                         <li>
-                              <a
-                                   href="https://archive.org/details/TheSecretTeachingsOfAllAgesManlyHall/mode/2up"
-                                   target="_blank"
-                                   >The Secret Teachings of All Ages</a
-                              >
-                              by Manly P. Hall
-                              <ul>
-                                   <li>
-                                        This history book gives the reader an
-                                        excellent look into the history of magic
-                                        in the Western world.
-                                   </li>
-                              </ul>
-                         </li>
-                         <li>
-                              <a
-                                   href="resources\Vox’s Satanic Banishing Ritual & Associated Notes.pdf"
-                                   target="_blank">
-                                   Vox’s Satanic Banishing Ritual</a
-                              >
-                              by Vox Serpentis
-                              <ul>
-                                   <li>
-                                        While the Satanist is hardly bound to
-                                        only dabble in Western magical methods,
-                                        The Lesser Banishing Ritual of the
-                                        Pentagram is a basic ritual that almost
-                                        any practitioner can get use out of, but
-                                        the original version’s requirements of
-                                        calling on the names of God and various
-                                        angels often makes the more demonically
-                                        inclined practitioners of the world
-                                        uncomfortable. To remedy this issue, Vox
-                                        Serpentis, one of the three founders of
-                                        the Circle of the Fallen, has designed a
-                                        Satanic version of the banishing ritual.
-                                        Use before any ritual, or on its own to
-                                        clear your space and mind from unwanted
-                                        energies, thoughts, and spirits.
-                                   </li>
-                              </ul>
-                         </li>
-                         <li>
-                              <a
-                                   href="resources\Devil's_Sabbath.pdf"
-                                   target="_blank">
-                                   Devil’s Sabbath</a
-                              >
-                              by Lion
-                              <ul>
-                                   <li>
-                                        The Circle of the Fallen has no
-                                        formalized practices or required ritual
-                                        structure for our members to follow.
-                                        However, we do encourage all community
-                                        members to design their own practices,
-                                        including group practices. If you’re
-                                        looking for an enjoyable, easy group
-                                        ritual that can be done online or in
-                                        person, consider Lion’s very popular
-                                        Devil’s Sabbath ritual.
-                                   </li>
-                              </ul>
-                         </li>
-                         <li>
-                              <a
-                                   href="https://www.quareia.com/"
-                                   target="_blank"
-                                   >Quareia</a
-                              >
-                              <ul>
-                                   <li>
-                                        Now this one’s a bit of a committment,
-                                        and we don’t expect most people to go
-                                        through it all. But if you’re the type
-                                        who loves to learn in a lesson format,
-                                        Quareia is for you. It’s a completely
-                                        free, multi-year, self-paced course in
-                                        Western magic, without any particular
-                                        religion being emphasized. Study this
-                                        alongside some Satanic literature and
-                                        you’ll be well on your way.
-                                   </li>
-                              </ul>
-                         </li>
-                    </ul>
-                    <h3>Left Hand Path</h3>
-                    <p>
-                         Left Hand Path (LHP) is a rather squirrely term that is
-                         defined differently by different people; for our
-                         purposes, it means magical practices from the broad
-                         Western tradition that dabble in demonic and culturally
-                         tabboo practices. This, generally speaking, is the
-                         broader catagory that Satanic magic tends to fall into.
-                         However, as previously mentioned, this LHP catagory
-                         pulls from many other traditions, and so we have
-                         included several other catagories of magic that are
-                         worth being passingly familiar with, so that the
-                         well-rounded Satanic mage may recognize cross-tradition
-                         references when they come up, and mix and match
-                         different methods effectively.
-                    </p>
-                    <ul>
-                         <li>
-                              <a
-                                   href="https://archive.org/details/kupdf.com_daemonic-magick/mode/2up"
-                                   target="_blank">
-                                   Daemonic Magick</a
-                              >
-                              by Seleneiethon
-                         </li>
-                         <li>
-                              <a
-                                   href="https://kovinia.itch.io/the-little-daemon-booklet"
-                                   target="_blank">
-                                   The Little Daemon Booklet</a
-                              >
-                              by Anne O’Donoghue
-                         </li>
-                         <li>
-                              <a
-                                   href="https://kovinia.itch.io/72-goetic-demon-cheat-sheet"
-                                   target="_blank">
-                                   72 Goetic Demon Cheat Sheet</a
-                              >
-                              by Anne O’Donoghue
-                         </li>
-                         <li>
-                              <a
-                                   href="https://kovinia.itch.io/demons-summoning-for-the-solitary-practitioner"
-                                   target="_blank">
-                                   Demons and Daemons: Summoning for the
-                                   Solitary Practitioner</a
-                              >
-                              by Anne O’Donoghue
-                         </li>
-                         <li>
-                              <a
-                                   href="https://archive.org/details/stellas-daemonum/mode/2up"
-                                   target="_blank">
-                                   Stellas Daemonum: The Orders of the Demons</a
-                              >
-                              by David Crowhurst
-                         </li>
-                         <li>
-                              <a
-                                   href="https://archive.org/details/the-book-of-smokeless-fire/mode/2up"
-                                   target="_blank">
-                                   The Book of Smokeless Fire</a
-                              >
-                              by S. Ben Qayin
-                         </li>
-                         <li>
-                              <a
-                                   href="https://archive.org/details/kenneth-grant-nightside-of-eden_202408"
-                                   target="_blank">
-                                   Nightshade of Eden</a
-                              >
-                              by Kenneth Grant
-                         </li>
-                         <li>
-                              <a
-                                   href="https://archive.org/details/black-magic-evocation-of-the-shem-ha-mephorash_202212"
-                                   target="_blank">
-                                   Black Magic Evocation of the Shem Ha
-                                   Mephorash</a
-                              >
-                              by Gilles De Laval
-                         </li>
-                         <li>
-                              <a
-                                   href="https://archive.org/details/the-explicit-name-of-lucifer-full/page/n5/mode/2up"
-                                   target="_blank">
-                                   The Explicit Name Of Lucifer</a
-                              >
-                              by Gilles De Laval
-                         </li>
-                    </ul>
+               <h3>Witchcraft</h3>
+               <p>
+                    Originally thrown around as an insult and an accusation
+                    towards practitioners of folk practices (or just about
+                    anyone who stepped out of line, really) the word
+                    “witchcraft” has been reclaimed in our modern day by
+                    those who practice magick rooted in the world around
+                    us. We could never provide an all-encompassing view of
+                    witchcraft, but we believe these offerings will be
+                    useful to any Satanist wishing to dip their toes into
+                    the practice.
+               </p>
+               <ul>
+                    <li>
+                         <a href="https://kovinia.itch.io/kitchen-demonolatry" target="_blank">
+                              Kitchen Demonolatry</a>
+                         by Anne O’Donoghue
+                    </li>
+                    <li>
+                         <a href="https://www.patheos.com/blogs/byathameandstang/" target="_blank">
+                              By Anthame and Stang (blog)</a>
+                         by Kelden
+                    </li>
+                    <li>
+                         <a href="https://archive.org/details/witchbookencyclo0000buck" target="_blank">
+                              The Witch Book: An Encyclopedia of
+                              Witchcraft, Wicca, and Neo-paganism</a>
+                         by Raymond Buckland
+                    </li>
+                    <li>
+                         <a href="https://archive.org/details/andrew-chumbley-azoetia/page/n3/mode/2up" target="_blank">
+                              Azoëtia: A Grimoire of the Sabbatic Craft</a>
+                         by Andrew D. Chumbley
+                    </li>
+                    <li>
+                         <a href="https://archive.org/details/opuscula-magica-volume-1-andrew-d-chumbley"
+                              target="_blank">
+                              Opuscula Magica Volume 1</a>
+                         by Andrew D. Chumbley
+                    </li>
+               </ul>
+               <h3>Chaos Magick</h3>
+               <p>
+                    Perhaps the most exciting development of modern day
+                    magick, the thesis of chaos magick is deceptively
+                    simple – belief as a tool. This is an approach to
+                    magick that has served many Satanists well, as it
+                    encourages one to boldly experiment without the fear of
+                    punishment by outside forces.
+               </p>
+               <ul>
+                    <li>
+                         <a href="https://archive.org/details/the-psychonaut-field-manual_202307" target="_blank">
+                              The Psychonaut Field Manual</a>
+                         by Arch-Traitor BlueFluke
+                    </li>
+                    <li>
+                         <a href="https://archive.org/details/condensed-chaos-an-introduction-to-chaos-magic-phil-hine"
+                              target="_blank">
+                              Jasper’s Energyform Zine</a>
+                         by Jasper the Wizard
+                    </li>
+                    <li>
+                         <a href="https://archive.org/details/condensed-chaos-an-introduction-to-chaos-magic-phil-hine"
+                              target="_blank">Condensed Chaos</a>
+                         by Phil Hine
+                    </li>
+                    <li>
+                         <a href="https://archive.org/details/LiberNullAndThePsychonaut" target="_blank">
+                              Liber Null and the Psychonaut</a>
+                         by Peter J. Carroll
+                    </li>
+                    <li>
+                         <a href="https://archive.org/details/isbn_9781984994844" target="_blank">
+                              The Book of Pleasure: the Psychology of
+                              Ecstacy</a>
+                         by Austin Osman Spare
+                    </li>
+               </ul>
+               <h3>Ceremonial Magick</h3>
+               <p>
+                    With its roots in ancient mysticism and its influence
+                    stretching to the modern day, ceremonial magick has
+                    been utilized by many occult orders and applied in many
+                    different ways. Here, you can study a few of the most
+                    famous methods.
+               </p>
+               <ul>
+                    <li>
+                         <a href="https://archive.org/details/A.EWaiteCeremonialMagic" target="_blank">
+                              The Book of Ceremonial Magic</a>
+                         by A. E. Waite
+                    </li>
+                    <li>
+                         <a href="https://archive.org/details/IsraelRegardie-thegoldenDawn-vol1-1937" target="_blank">
+                              The Golden Dawn</a>
+                         by Israel Regardie
+                    </li>
+                    <li>
+                         <a href="https://archive.org/details/b29825064/page/n5/mode/2up" target="_blank">
+                              Magick in Theory and Practice</a>
+                         by Aleister Crowley
+                    </li>
+                    <li>
+                         <a href="https://hermetic.com/crowley/magick-without-tears/index" target="_blank">
+                              Magick Without Tears</a>
+                         by Aleister Crowley
+                    </li>
+               </ul>
+               <h3>Divination</h3>
+               <p>
+                    Who doesn’t crave to see the future, or learn knowledge
+                    that is otherwise hidden to us? Divination is one of
+                    the oldest forms of magick, with nearly every culture
+                    in the world having some form of it. Here are a few you
+                    can explore for yourself.
+               </p>
+               <ul>
+                    <li>
+                         <a href="https://www.learntarot.com/" target="_blank">
+                              Learn Tarot</a>
+                    </li>
+                    <li>
+                         <a href="https://ko-fi.com/s/c13f1c8983" target="_blank">
+                              Alabaster Crow’s Expanded Guide to
+                              Divination</a>
+                         by Alabaster Crow
+                    </li>
+               </ul>
+               <h3>Astrology</h3>
+               <p>"The stars have enraptured wizard and layman alike in nearly every religion on earth - Satanists are
+                    no different. If the magical study of celestial bodies calls to you, consider starting here."</p>
+               <ul>
+                    <li>
+                         <a href="\resources\Astrology 101.pdf" target="_blank">
+                              Spindlestar's Astrology 101
+                         </a>
+                    </li>
+               </ul>
+               <h3>Magick Languages</h3>
+               <p>
+                    The topic of magick languages is incredibly broad –
+                    after all, any language can be magickal if you use it
+                    right. But here are a few resources we think would be
+                    especially useful to the aspiring Satanic mage.
+               </p>
+               <ul>
+                    <li>
+                         <a href="https://digitaloccultlibrary.commons.gc.cuny.edu/occult-languages-and-alphabets/"
+                              target="">Occult Languages and Alphabets</a>
+                         from The Digital Occult Library
+                    </li>
+                    <li>
+                         <a href="https://docs.google.com/document/d/1ytIABV1ZfZ3E4Q921MxXDKLZ4XNKhQxXvsPExJ0-22c/edit?tab=t.0"
+                              target="_blank">Sheolish Dictionary</a>
+                         by hell-propaganda on Tumblr
+                    </li>
+                    <li>
+                         <a href="https://ualthum.gumroad.com/l/dirokvul" target="_blank">
+                              The Dirokvul</a>
+                         by Ulathum
+                    </li>
+               </ul>
+          </div>
+     </main>
+     <script src="/scripts/theme.js"></script>
+     <footer>
+          <a href="../index.html">Home</a>
+     </footer>
+</body>
 
-                    <h3>Witchcraft</h3>
-                    <p>
-                         Originally thrown around as an insult and an accusation
-                         towards practitioners of folk practices (or just about
-                         anyone who stepped out of line, really) the word
-                         “witchcraft” has been reclaimed in our modern day by
-                         those who practice magick rooted in the world around
-                         us. We could never provide an all-encompassing view of
-                         witchcraft, but we believe these offerings will be
-                         useful to any Satanist wishing to dip their toes into
-                         the practice.
-                    </p>
-                    <ul>
-                         <li>
-                              <a
-                                   href="https://kovinia.itch.io/kitchen-demonolatry"
-                                   target="_blank">
-                                   Kitchen Demonolatry</a
-                              >
-                              by Anne O’Donoghue
-                         </li>
-                         <li>
-                              <a
-                                   href="https://www.patheos.com/blogs/byathameandstang/"
-                                   target="_blank">
-                                   By Anthame and Stang (blog)</a
-                              >
-                              by Kelden
-                         </li>
-                         <li>
-                              <a
-                                   href="https://archive.org/details/witchbookencyclo0000buck"
-                                   target="_blank">
-                                   The Witch Book: An Encyclopedia of
-                                   Witchcraft, Wicca, and Neo-paganism</a
-                              >
-                              by Raymond Buckland
-                         </li>
-                         <li>
-                              <a
-                                   href="https://archive.org/details/andrew-chumbley-azoetia/page/n3/mode/2up"
-                                   target="_blank">
-                                   Azoëtia: A Grimoire of the Sabbatic Craft</a
-                              >
-                              by Andrew D. Chumbley
-                         </li>
-                         <li>
-                              <a
-                                   href="https://archive.org/details/opuscula-magica-volume-1-andrew-d-chumbley"
-                                   target="_blank">
-                                   Opuscula Magica Volume 1</a
-                              >
-                              by Andrew D. Chumbley
-                         </li>
-                    </ul>
-                    <h3>Chaos Magick</h3>
-                    <p>
-                         Perhaps the most exciting development of modern day
-                         magick, the thesis of chaos magick is deceptively
-                         simple – belief as a tool. This is an approach to
-                         magick that has served many Satanists well, as it
-                         encourages one to boldly experiment without the fear of
-                         punishment by outside forces.
-                    </p>
-                    <ul>
-                         <li>
-                              <a
-                                   href="https://archive.org/details/the-psychonaut-field-manual_202307"
-                                   target="_blank">
-                                   The Psychonaut Field Manual</a
-                              >
-                              by Arch-Traitor BlueFluke
-                         </li>
-                         <li>
-                              <a
-                                   href="https://archive.org/details/condensed-chaos-an-introduction-to-chaos-magic-phil-hine"
-                                   target="_blank">
-                                   Jasper’s Energyform Zine</a
-                              >
-                              by Jasper the Wizard
-                         </li>
-                         <li>
-                              <a
-                                   href="https://archive.org/details/condensed-chaos-an-introduction-to-chaos-magic-phil-hine"
-                                   target="_blank"
-                                   >Condensed Chaos</a
-                              >
-                              by Phil Hine
-                         </li>
-                         <li>
-                              <a
-                                   href="https://archive.org/details/LiberNullAndThePsychonaut"
-                                   target="_blank">
-                                   Liber Null and the Psychonaut</a
-                              >
-                              by Peter J. Carroll
-                         </li>
-                         <li>
-                              <a
-                                   href="https://archive.org/details/isbn_9781984994844"
-                                   target="_blank">
-                                   The Book of Pleasure: the Psychology of
-                                   Ecstacy</a
-                              >
-                              by Austin Osman Spare
-                         </li>
-                    </ul>
-                    <h3>Ceremonial Magick</h3>
-                    <p>
-                         With its roots in ancient mysticism and its influence
-                         stretching to the modern day, ceremonial magick has
-                         been utilized by many occult orders and applied in many
-                         different ways. Here, you can study a few of the most
-                         famous methods.
-                    </p>
-                    <ul>
-                         <li>
-                              <a
-                                   href="https://archive.org/details/A.EWaiteCeremonialMagic"
-                                   target="_blank">
-                                   The Book of Ceremonial Magic</a
-                              >
-                              by A. E. Waite
-                         </li>
-                         <li>
-                              <a
-                                   href="https://archive.org/details/IsraelRegardie-thegoldenDawn-vol1-1937"
-                                   target="_blank">
-                                   The Golden Dawn</a
-                              >
-                              by Israel Regardie
-                         </li>
-                         <li>
-                              <a
-                                   href="https://archive.org/details/b29825064/page/n5/mode/2up"
-                                   target="_blank">
-                                   Magick in Theory and Practice</a
-                              >
-                              by Aleister Crowley
-                         </li>
-                         <li>
-                              <a
-                                   href="https://hermetic.com/crowley/magick-without-tears/index"
-                                   target="_blank">
-                                   Magick Without Tears</a
-                              >
-                              by Aleister Crowley
-                         </li>
-                    </ul>
-                    <h3>Divination</h3>
-                    <p>
-                         Who doesn’t crave to see the future, or learn knowledge
-                         that is otherwise hidden to us? Divination is one of
-                         the oldest forms of magick, with nearly every culture
-                         in the world having some form of it. Here are a few you
-                         can explore for yourself.
-                    </p>
-                    <ul>
-                         <li>
-                              <a
-                                   href="https://www.learntarot.com/"
-                                   target="_blank">
-                                   Learn Tarot</a
-                              >
-                         </li>
-                         <li>
-                              <a
-                                   href="https://ko-fi.com/s/c13f1c8983"
-                                   target="_blank">
-                                   Alabaster Crow’s Expanded Guide to
-                                   Divination</a
-                              >
-                              by Alabaster Crow
-                         </li>
-                    </ul>
-                    <h3>Magick Languages</h3>
-                    <p>
-                         The topic of magick languages is incredibly broad –
-                         after all, any language can be magickal if you use it
-                         right. But here are a few resources we think would be
-                         especially useful to the aspiring Satanic mage.
-                    </p>
-                    <ul>
-                         <li>
-                              <a
-                                   href="https://digitaloccultlibrary.commons.gc.cuny.edu/occult-languages-and-alphabets/"
-                                   target=""
-                                   >Occult Languages and Alphabets</a
-                              >
-                              from The Digital Occult Library
-                         </li>
-                         <li>
-                              <a
-                                   href="https://docs.google.com/document/d/1ytIABV1ZfZ3E4Q921MxXDKLZ4XNKhQxXvsPExJ0-22c/edit?tab=t.0"
-                                   target="_blank"
-                                   >Sheolish Dictionary</a
-                              >
-                              by hell-propaganda on Tumblr
-                         </li>
-                         <li>
-                              <a
-                                   href="https://ualthum.gumroad.com/l/dirokvul"
-                                   target="_blank">
-                                   The Dirokvul</a
-                              >
-                              by Ulathum
-                         </li>
-                    </ul>
-               </div>
-          </main>
-          <script src="/scripts/theme.js"></script>
-          <footer>
-               <a href="../index.html">Home</a>
-          </footer>
-     </body>
 </html>
