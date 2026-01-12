@@ -1,170 +1,137 @@
 <!DOCTYPE html>
 
 <html>
-     <head>
-          <!-- Google tag (gtag.js) -->
-          <script
-               async
-               src="https://www.googletagmanager.com/gtag/js?id=G-LGX15XZ5ZY"></script>
-          <script>
-               window.dataLayer = window.dataLayer || [];
-               function gtag() {
-                    dataLayer.push(arguments);
-               }
-               gtag("js", new Date());
 
-               gtag("config", "G-LGX15XZ5ZY");
-          </script>
-          <meta charset="UTF-8" />
-          <meta
-               name="viewport"
-               content="width=device-width, initial-scale=1.0" />
-          <title>Music | FALL</title>
-          <link
-               rel="icon"
-               type="image/x-icon"
-               href="/images/evil_smile.png" />
-          <script>
+<head>
+     <!-- Google tag (gtag.js) -->
+     <script async src="https://www.googletagmanager.com/gtag/js?id=G-LGX15XZ5ZY"></script>
+     <script>
+          window.dataLayer = window.dataLayer || [];
+          function gtag() {
+               dataLayer.push(arguments);
+          }
+          gtag("js", new Date());
+
+          gtag("config", "G-LGX15XZ5ZY");
+     </script>
+     <meta charset="UTF-8" />
+     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+     <title>Music | FALL</title>
+     <link rel="icon" type="image/x-icon" href="/images/evil_smile.png" />
+     <script>
                /* Apply saved theme early to avoid FOUC */ (function () {
-                    try {
-                         var t = localStorage.getItem("fall-theme");
-                         if (t === "dark") {
-                              document.documentElement.classList.add(
-                                   "dark-mode"
-                              );
-                         } else {
-                              document.documentElement.classList.add(
-                                   "light-mode"
-                              );
-                         }
-                    } catch (e) {}
-               })();
-          </script>
-          <link
-               href="/style.css"
-               rel="stylesheet"
-               type="text/css"
-               media="all" />
-     </head>
-     <body>
-          <header>
-               <div class="top-bar">
-                    <button
-                         id="theme-toggle"
-                         role="switch"
-                         aria-checked="false"
-                         aria-label="Toggle dark mode">
-                         Dark
-                    </button>
-                    <nav>
-                         <ul>
-                              <li><a href="../index.html">Home</a></li>
-                              <li><a href="../about.html">About</a></li>
-                         </ul>
-                    </nav>
-               </div>
-          </header>
-          <h1 id="title">LIBRARY OF THE FALLEN</h1>
-          <main>
-               <div class="tab">
-                    <a
-                         class="tablinks"
-                         href="../library.html"
-                         >Start Here</a
-                    >
-                    <a
-                         class="tablinks"
-                         href="history.html"
-                         >History and Philosophy</a
-                    >
-                    <a
-                         class="tablinks"
-                         href="prayer.html"
-                         >Prayer and Practice</a
-                    >
-                    <a
-                         class="tablinks"
-                         href="magic.html"
-                         >Magic</a
-                    >
-                    <a
-                         class="tablinks active"
-                         href="music.html"
-                         >Music</a
-                    >
-                    <a
-                         class="tablinks"
-                         href="related.html"
-                         >Satanism and Related Faiths</a
-                    >
-                    <a
-                         class="tablinks"
-                         href="other.html"
-                         >Other</a
-                    >
-               </div>
+               try {
+                    var t = localStorage.getItem("fall-theme");
+                    if (t === "dark") {
+                         document.documentElement.classList.add(
+                              "dark-mode"
+                         );
+                    } else {
+                         document.documentElement.classList.add(
+                              "light-mode"
+                         );
+                    }
+               } catch (e) { }
+          })();
+     </script>
+     <link href="/style.css" rel="stylesheet" type="text/css" media="all" />
+</head>
 
-               <!-- Tab content -->
-               <div id="Music">
-                    <h2>Music</h2>
-                    <p>
-                         Music is an incredibly important aspect in almost any
-                         religion. It connects people, enhances religious rites,
-                         and brings us closer to our gods. But Satanism
-                         struggles with the unique challenge of having a
-                         considerable swath of musicians who make use of our
-                         aesthetics and themes without actually participating in
-                         our religion. We at Circle of the Fallen hold no ill
-                         will towards such artists, but we do feel it is
-                         important to help each other find music made by actual
-                         Satanists.
-                    </p>
-                    <p> 
-                         Here is our collection.
-                    </p> 
-                    <h3>General</h3>
+<body>
+     <header>
+          <div class="top-bar">
+               <button id="theme-toggle" role="switch" aria-checked="false" aria-label="Toggle dark mode">
+                    Dark
+               </button>
+               <nav>
                     <ul>
-                         <li>
-                              <a href="https://docs.google.com/spreadsheets/d/1ZpfQIvN9cdWCAoxd_txvHS4rG1i4sNkS9IL_EfUbnjk/edit?gid=0#gid=0" target="_blank"> Bands That
+                         <li><a href="../index.html">Home</a></li>
+                         <li><a href="../about.html">About</a></li>
+                         <li><a href="../faq.html">FAQ</a></li>
+                    </ul>
+               </nav>
+          </div>
+     </header>
+     <h1 id="title">LIBRARY OF THE FALLEN</h1>
+     <main>
+          <div class="tab">
+               <a class="tablinks" href="../library.html">Start Here</a>
+               <a class="tablinks" href="history.html">History and Philosophy</a>
+               <a class="tablinks" href="prayer.html">Prayer and Practice</a>
+               <a class="tablinks" href="magic.html">Magic</a>
+               <a class="tablinks active" href="music.html">Music</a>
+               <a class="tablinks" href="related.html">Satanism and Related Faiths</a>
+               <a class="tablinks" href="other.html">Other</a>
+          </div>
+
+          <!-- Tab content -->
+          <div id="Music">
+               <h2>Music</h2>
+               <p>
+                    Music is an incredibly important aspect in almost any
+                    religion. It connects people, enhances religious rites,
+                    and brings us closer to our gods. But Satanism
+                    struggles with the unique challenge of having a
+                    considerable swath of musicians who make use of our
+                    aesthetics and themes without actually participating in
+                    our religion. We at Circle of the Fallen hold no ill
+                    will towards such artists, but we do feel it is
+                    important to help each other find music made by actual
+                    Satanists.
+               </p>
+               <p>
+                    Here is our collection.
+               </p>
+               <h3>General</h3>
+               <ul>
+                    <li>
+                         <a href="https://docs.google.com/spreadsheets/d/1ZpfQIvN9cdWCAoxd_txvHS4rG1i4sNkS9IL_EfUbnjk/edit?gid=0#gid=0"
+                              target="_blank"> Bands That
                               Are In On It</a> by Caine Del Sol
                          <ul>
-                              <li>This spreadsheet is a labor of love by a Satanic author and member of the Satanic band, Grave Gnosis. Caine Del Sol created this in order to track down and verify as many Satanic and occult bands as possible. And when we say Satanic and
-                              occult, we’re not playing around with costumes or
-                              groups who use dark imagery just to be edgy, we’re
-                              talking about actual practitioners who also make music.
-                              The sheet is in alphabetical order, includes notes on
-                              genre and proof, and even has a suggestions tab where
-                              readers can suggest bands for Caine to investigate and
-                              possibly add to the list.
+                              <li>This spreadsheet is a labor of love by a Satanic author and member of the Satanic
+                                   band, Grave Gnosis. Caine Del Sol created this in order to track down and verify as
+                                   many Satanic and occult bands as possible. And when we say Satanic and
+                                   occult, we’re not playing around with costumes or
+                                   groups who use dark imagery just to be edgy, we’re
+                                   talking about actual practitioners who also make music.
+                                   The sheet is in alphabetical order, includes notes on
+                                   genre and proof, and even has a suggestions tab where
+                                   readers can suggest bands for Caine to investigate and
+                                   possibly add to the list.
                               </li>
                          </ul>
-                    </ul>
-                    <h3>Meditation and Ritual</h3>
-                         <p>
-                         If you
-                         need something to set the mood during your spiritual
-                         practices, one of these might be up your alley.</p>
-                         <ul>
-                              <li><a href="https://christopherjcozzi.bandcamp.com/album/adversarial-meditation-2" target="_blank">Adversarial Meditation</a> by Christopher J Cozzi
-                              </li>
-                              <li><a href="https://akhtya.bandcamp.com/" target="_blank">Akhtya</a></li>
-                              <li><a href="https://antelogos.bandcamp.com/" target="_blank">Antelogos</a></li>
-                              <li><a href="https://www.youtube.com/@AstraInferniDemonolatry" target="_blank">Astra Inferni
-                         Demonolatry</a>
-                         </li>
-                              <li><a href="https://corona-barathri.bandcamp.com/album/homines-sacerrimi-opus-i" target="_blank">Homines Sacerrimi [Opus I]</a> by Corona Barathri
-                         </li>
-                              <li><a href="https://davidmllr.bandcamp.com/" target="_blank">   MLLR</a>
-                         </li>
-                    </li>     
-                    </li></ul>
                </ul>
-                    
-               </div>
-          </main>
-          <script src="/scripts/theme.js"></script>
-          <footer>
-               <a href="../index.html">Home</a>
-          </footer>
-     </body>
+               <h3>Meditation and Ritual</h3>
+               <p>
+                    If you
+                    need something to set the mood during your spiritual
+                    practices, one of these might be up your alley.</p>
+               <ul>
+                    <li><a href="https://christopherjcozzi.bandcamp.com/album/adversarial-meditation-2"
+                              target="_blank">Adversarial Meditation</a> by Christopher J Cozzi
+                    </li>
+                    <li><a href="https://akhtya.bandcamp.com/" target="_blank">Akhtya</a></li>
+                    <li><a href="https://antelogos.bandcamp.com/" target="_blank">Antelogos</a></li>
+                    <li><a href="https://www.youtube.com/@AstraInferniDemonolatry" target="_blank">Astra Inferni
+                              Demonolatry</a>
+                    </li>
+                    <li><a href="https://corona-barathri.bandcamp.com/album/homines-sacerrimi-opus-i"
+                              target="_blank">Homines Sacerrimi [Opus I]</a> by Corona Barathri
+                    </li>
+                    <li><a href="https://davidmllr.bandcamp.com/" target="_blank"> MLLR</a>
+                    </li>
+                    </li>
+                    </li>
+               </ul>
+               </ul>
+
+          </div>
+     </main>
+     <script src="/scripts/theme.js"></script>
+     <footer>
+          <a href="../index.html">Home</a>
+     </footer>
+</body>
+
 </html>
